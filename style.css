@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000000;
+    color: #fff;
+}
+
+/* #header{
+    width: 100%;
+    height: 100vh;
+    background-image: url('images/PortfoloBG.png');
+    background-size: cover;
+    background-position: center;
+
+} */
+
+#header {
+    width: 100%;
+    height: 100vh;
+    padding-left: 5;
+    padding-top: 5px;
+    background-image: url('PFBG.png');
+    /* Adjust the path relative to your HTML file */
+    background-size: contain;
+    /* Adjust to 'cover' if you want the image to cover the entire container */
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 2%;
+    padding-right: 1%;
+}
+
+.logo {
+    color: whitesmoke;
+    font-size: 30px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span {
+    color: #315f91;
+}
+
+nav ul li {
+    text-align: right;
+    list-style-type: none;
+    font-size: large;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: #315f91;
+    transition: .3s;
+}
+
+/* .content{
+    text-align: left;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1{
+    color: white;
+    margin: 0;;
+    font-size: 75px;
+}
+h3{
+    color: white;
+    margin: 0;
+    font-size: 50px;
+} */
+
+.content {
+    margin-left: 100px;
+    position: center;
+    right: 50%;
+    /* Adjust right side distance */
+    transform: translateY(-50%);
+    text-align: left;
+    /* Align text to the right side of the container */
+
+    justify-content: center;
+    /* Horizontal alignment */
+    align-items: center;
+    /* Vertical alignment */
+    height: 100vh;
+    /* Set a height to the container to center vertically */
+}
+
+h4,
+h1,
+h3 {
+    margin-left: 700px;
+    padding-top: 17%;
+    height: 10px;
+    color: white;
+    margin: 10;
+    /* Remove default margins */
+}
+
+h4 {
+    font-size: 25px;
+    line-height: 1;
+    margin: 50;
+}
+
+h1 {
+    font-size: 65px;
+    line-height: 1;
+    margin: 50;
+    margin-top: 30px;
+    padding-top: 10px;
+}
+
+h3 {
+    font-size: 25px;
+    margin: 50;
+    line-height: 1;
+    margin-top: 70px;
+    padding-top: 10px;
+}
+
+span1 {
+    color: #315f91;
+}
+
+/* ---------about-------------- */
+
+.About {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    max-width: 19%;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+.about-text {
+    flex: 1;
+    margin-right: 10px;
+    justify-content: space-between;
+    max-width: 70%;
+}
+
+.about-text h2 {
+    margin-bottom: 5px;
+    font-size: 24px;
+}
+
+.about-text p {
+    margin-top: 0;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.sub-title {
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.tab.titles {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 20px;
+}
+
+.tab-links {
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+
+.tab-links::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #315f91;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+
+.tab-links.active-link::after {
+    width: 50%;
+}
+
+.tab-contents {
+    display: none
+}
+
+/* ---------Resume-------------- */
+
+
+/* ---------projects-------------- */
+
